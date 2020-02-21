@@ -23,6 +23,10 @@ describe('server responses', () => {
 
   it('should respond to a GET request for a swim command', (done) => {
     // write your test here
+    // expect($.ajax.calledOnce).to.be.true;
+    // ajaxUrl = typeof $.ajax.args[0][0] === 'string' ? $.ajax.args[0][0] : $.ajax.args[0][0].url;
+    // expect(ajaxUrl).to.equal(Parse.server);
+
     done();
   });
 
